@@ -1,0 +1,55 @@
+.wrap {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: centerß;
+    align-items: center;
+    background: white;
+    padding: 1.8rem;
+    border-radius: var(--round2);
+
+    p {
+        width: fit-content;
+    }
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.value {
+    font-size: calc(5rem * 0.78);
+    font-weight: 700;
+}
+
+.label {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--grey-medium);
+}
+
+.valueBalancer {
+    margin-right: 1rem;
+}
+
+.triWrap {
+    width: fit-content;
+    margin-left: 1rem;
+}
+
+.triangle {
+    stroke-width: 1;
+}
+
+.upTri {
+    fill: var(--green);
+    stroke: var(--green);
+}
+
+.downTri {
+    fill: var(--red);
+    stroke: var(--red);
+}

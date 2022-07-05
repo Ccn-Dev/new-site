@@ -1,0 +1,22 @@
+.wrap {
+    height: var(--field-height);
+    background-color: var(--black-light);
+    border-radius: var(--round);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    // transition: all .5s;
+}
+
+.wrap:hover {
+    opacity: .9;
+}
+
+.disabled {
+    background-color: var(--grey);
+    cursor: default;
+}

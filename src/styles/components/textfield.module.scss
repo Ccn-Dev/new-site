@@ -1,0 +1,47 @@
+.wrap {
+    height: var(--field-height);
+    width: 100%;
+    background-color: var(--grey-light);
+    border-radius: var(--round);
+    padding: .9rem .8rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.8rem;
+}
+
+.img {
+    height: 100%;
+}
+
+.input {
+    width: 100%;
+    background-color: var(--grey-light);
+    border: 0;
+    font-family: 'AzoSans';
+    font-weight: 500;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.iconWrap {
+    width: 1.6rem;
+    display: flex;
+    justify-content: center;
+    height: 1rem;
+}
+
+.email {
+    padding: .1rem 0;
+}
+
+.invalid {
+    background-color: var(--red);
+}
+
+.bigBox {
+    height: 15rem;
+}

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: "AzoSans";
+  src: local("AzoSans"),
+   url("./assets/fonts/AzoSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  }
+@font-face {
+    font-family: "AzoSans";
+    src: local("AzoSans"),
+     url("./assets/fonts/AzoSans-Thin.ttf") format("truetype");
+    font-weight: thin;
+    }
+@font-face {
+  font-family: "AzoSans";
+  src: local("AzoSans"),
+    url("./assets/fonts/AzoSans-Medium.ttf") format("truetype");
+  font-weight: Medium;
+  }
+  @font-face {
+    font-family: "AzoSans";
+    src: local("AzoSans"),
+      url("./assets/fonts/AzoSans-Regular.ttf") format("truetype");
+    font-weight: Regular;
+    }

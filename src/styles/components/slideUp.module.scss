@@ -1,0 +1,18 @@
+.container {
+    justify-content: flex-end;
+}
+
+.wrap {
+    background-color: white;
+    box-shadow: 0px .2rem .4rem rgba(0,0,0, .2);
+    // justify-self: flex-end;
+    width: 40rem;
+    // min-height: fit-content;
+    max-height: 80vh;
+    border-radius: var(--round2) var(--round2) 0  0;
+    padding: 3rem 3rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

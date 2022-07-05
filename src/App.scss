@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'AzoSans';
+    src: url('./assets//fonts/AzoSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AzoSans';
+    src: url('./assets//fonts/AzoSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AzoSans';
+    src: url('./assets//fonts/AzoSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AzoSans';
+    src: url('./assets//fonts/AzoSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AzoSans';
+    src: url('./assets//fonts/AzoSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AzoSans';
+    src: url('./assets//fonts/AzoSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+:root {
+    font-size: 16px;
+    --black-light: #242424;
+    --grey-light: #F4F4F4;
+    --grey-medium: #898989;
+    --grey: #707070;
+    --green: #A1F8A6;
+    --red: #F8A1A1;
+
+    --round: .5rem;
+    --round2: .8rem;
+
+    --field-height: 2.7rem;
+
+    --indent1: 1rem;
+    --indent2: 1.5rem;
+}
+
+* {
+    font-family: 'AzoSans';
+    box-sizing: border-box;
+    transition: all .5s;
+    color: var(--black-light)
+}
+
+.App {
+    text-align: center;
+}
+
+.bigger-title {
+    // height
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--black-light);
+}
+
+.stat {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+}
+
+.stat2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+}
+
+.stat3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2.5rem;
+}
+
+.blur {
+    filter: blur(5px)
+}
+
+.blurLock {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bgOverlay {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 9999;
+}
+
+.textarea {
+    padding: 0;
+    padding-left: .75rem;
+    margin-top: -.2rem;
+}

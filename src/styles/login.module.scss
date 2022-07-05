@@ -1,0 +1,84 @@
+.wrap {
+    display: flex;
+    position: relative;
+    // height: 100vh;
+}
+
+.left {
+    background: white;
+    width: 38vw;
+    height: 100vh;
+    padding: 19rem 6rem 5rem 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    background: transparent linear-gradient(124deg, #A1F8A6 0%, #FFFFFF6C 100%) 0% 0% no-repeat padding-box;
+    width: 62vw;
+    height: 100vh;
+}
+
+.formWrap {
+    display: flex;
+    flex-direction: column;
+    // justify-content: 'space-between';
+    justify-content: space-between;
+    height: 100%;
+}
+
+.headerWrap {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.input {
+    margin-bottom: .8rem;
+}
+
+.longLogo {
+    height: .9rem;
+}
+
+.top {
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.forgottenPass {
+    text-decoration: underline;
+    text-align: center;
+    font-size: .8rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--grey);
+}
+
+.errBox {
+
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--green);
+    border-radius: var(--round);
+    padding: .8rem .8rem;
+    justify-self: center;
+    position: absolute;
+    top: 10rem;
+    // left: 10rem;
+
+    p {
+        width: auto;
+    }
+
+    .msgBox {
+        margin-right: 1rem;
+    }
+
+    .errClose {
+        cursor: pointer;
+    }
+}
