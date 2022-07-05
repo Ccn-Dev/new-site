@@ -41,7 +41,7 @@ export default function WelcomePage() {
             if (res.data.admin == "true" || res.data.admin == true) {
                 navigate("/Restocks")
             } else {
-                navigate("/Login")
+                navigate('/Login')
             }
         })
     })
