@@ -19,6 +19,7 @@ export default function NewBuyPinger (props) {
     const [ releaseDate, setReleaseDate ] = useState('')
     const [ releaseTime, setReleaseTime ] = useState('')
     const [ img, setImg ] = useState('https://cdn.discordapp.com/attachments/871750276426649640/961933446496813056/Stockimage-01.png')
+    const [ discordImg, setDiscordImg ] = useState('')
     const [ desc, setDesc ] = useState('')
     const [ sellingTime, setSellingTime ] = useState('')
     const [ returns, setReturns ] = useState('')
@@ -138,6 +139,11 @@ export default function NewBuyPinger (props) {
             icon: '/imgs/icons/img.png',
             title: 'Image URL',
             set: setImgBuffer
+        },
+        {
+            icon: '/imgs/icons/discord.png',
+            title: 'Discord Image (URL)',
+            set: setDiscordImg
         },
         {
             icon: '/imgs/icons/pencil.png',

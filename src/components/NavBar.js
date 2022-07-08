@@ -32,11 +32,12 @@ const NavItem = ({ data, onClick }) => {
 export default function NavBar({ current, slideBlur }) {
 
     const navigate = useNavigate()
-    const [ addMenuOpen, setAddMenuOpen ] = useState()
+    const [ addMenuOpen, setAddMenuOpen ] = useState(false)
     const [ slideUp, setSlideUp ] = useState(null)
 
     const toggleAddMenu = () => {
         setAddMenuOpen(!addMenuOpen)
+        console.log('Hi')
     }
 
     useEffect(() => {
@@ -54,7 +55,7 @@ export default function NavBar({ current, slideBlur }) {
             light: '/imgs/icons/new-btn.svg',
             dark: '/imgs/icons/new-btn.svg',
             class: styles.newBtn,
-            onClick: toggleAddMenu
+            onClick: () => toggleAddMenu()
             // current: current === 0
         },
         {

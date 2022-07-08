@@ -34,12 +34,6 @@ export default function NewGuide() {
             icon: '/imgs/icons/link-black.png'
         },
         {
-            name: 'URL',
-            set: setURL,
-            valid: valid.url,
-            icon: '/imgs/icons/price-tag-black.png'
-        },
-        {
             name: 'Image URL',
             set: setImgURL,
             valid: valid.imgURL,

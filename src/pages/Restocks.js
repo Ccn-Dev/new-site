@@ -128,7 +128,7 @@ const RestockItem = ({ item, loadNotis, setAlert }) => {
     )
 }
 
-export default function Restocks() {
+export default function Restocks({ setOverlay }) {
 
     const [ notis, setNotis ] = useState([])
     const [ alert, setAlert ] = useState(null)
@@ -159,7 +159,7 @@ export default function Restocks() {
                 current={ 0 }
                 blur={ alert }
                 alert={ alert }
-                alertBuffer={ setAlert }
+                alertBuffer={ setOverlay }
             >
                 <section className='stat2'>
                     <StatCount
